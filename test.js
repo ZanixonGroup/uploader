@@ -1,16 +1,8 @@
 import axios from "axios";
-import cdn from "./index.js";
+import { RyzenUploader } from "./src/index.js";
 
-async function start() {
-  let buffer = await axios.get("https://cdn.sazumi.moe/file/mrwwgf.jpg", {
-    responseType: "arraybuffer"
-  });
-  buffer = buffer.data;
-  const up = await cdn.sazumi(buffer);
-  if(!up.status) throw up;
-  return up;
-};
+const eg = (await axios.get("https://telegra.ph/file/3838948e59859e543df1d.jpg", {
+  responseType: "arraybuffer"
+})).data;
 
-start()
-  .then(console.log)
-  .catch(console.log)
+RyzenUploader(eg).then(console.log).catch(console.log)

@@ -2,8 +2,8 @@
   "type": "module",
   "name": "uploader",
   "version": "1.0.0",
-  "description": "A lightweight file uploader for node.js",
-  "main": "test.js",
+  "description": "A simple any file hosting uploader for node.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "node test.js"
   },
@@ -29,7 +29,6 @@
     "axios": "^1.7.2",
     "file-type": "^19.0.0",
     "form-data": "^4.0.0",
-    "util": "^0.12.5",
-    "uuid": "^10.0.0"
+    "util": "^0.12.5"
   }
 }
