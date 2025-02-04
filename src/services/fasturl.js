@@ -10,7 +10,7 @@ export async function FastUrlUploader(buffer) {
   const form = new FormData();
   form.append("file", Buffer.from(buffer), {
     filename: "zxn-" + Date.now() + "." + mime.ext,
-    mimetype: mime.mime
+    contentType: mime.mime
   });
   const raw = await axios.post("https://fastrestapis.fasturl.cloud/downup/uploader-v2", form, {
     headers: {

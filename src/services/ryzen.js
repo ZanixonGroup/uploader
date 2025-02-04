@@ -10,7 +10,7 @@ export async function RyzenUploader(buffer) {
   const form = new FormData();
   form.append("file", Buffer.from(buffer), {
     filename: "zxn-" + Date.now() + "." + mime.ext,
-    mimetype: mime.mime
+    contentType: mime.mime
   });
   const raw = await axios.post("https://api.ryzendesu.vip/api/uploader/ryzencdn", form, {
     headers: {
