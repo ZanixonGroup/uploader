@@ -1,7 +1,7 @@
 {
   "type": "module",
-  "name": "uploader",
-  "version": "1.0.0",
+  "name": "@zanixongroup/uploader",
+  "version": "1.10.3",
   "description": "A simple any file hosting uploader for node.js",
   "main": "src/index.js",
   "scripts": {
