@@ -4,7 +4,7 @@ import { FileSize, MimeType } from "./../utils/helper.js";
 
 export async function PomfUploader(buffer) {
   if(!Buffer.isBuffer(buffer)) throw Error('Invalid buffer input!');
-  if((await FileSize(buffer)) >= 1024576000) throw Error('Max size upload for RyzenCDN is only 1GiB!');
+  if((await FileSize(buffer)) >= 1024576000) throw Error('Max size upload for PomfCDN is only 1GiB!');
   
   const mime = await MimeType(buffer);
   const form = new FormData();
