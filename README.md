@@ -26,6 +26,7 @@ npm i @zanixongroup/uploader
 
 ### Uploader
 This library has several file hostings:
+<<<<<<< HEAD
 - Pomf - Image, Video, Audio, etc (Exp: never)
 - Quax - Image, Video, Audio (Exp: never)
 - Videy - Video (Exp: never)
@@ -37,6 +38,16 @@ This library has several file hostings:
 - Catbox - Any (Exp: never)
 - TmpErhabot - Image, Video, Audio (Exp: 24h)
 - Uguu - Any (Exp: 3h)
+=======
+- PomfUploader - Image, Video, Audio, etc (Exp: never)
+- QuaxUploader - Image, Video, Audio (Exp: never)
+- VideyUploader - Video (Exp: never)
+- RyzenUploader - Image, Video, Audio (Exp: )
+- FastUrlUploader - Any (Exp: never)
+- ShojibUploader - Image (Exp: ??)
+- ErhabotUploader - Image (Exp: ??)
+- LitterBoxUploader - Any (Exp: 1h, 12h, 24h, 72h)
+>>>>>>> 703a0f9 (docs: added expiry information)
 
 ### Example Usage
 How to usage this simple library
