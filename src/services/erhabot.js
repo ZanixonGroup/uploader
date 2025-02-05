@@ -20,5 +20,5 @@ export async function ErhabotUploader(buffer) {
     }
   });
   
-  return raw?.data?.url || null;
+  return raw?.data?.data?.url || null;
 }
