@@ -13,6 +13,7 @@ A simple multi file hosting uploader like pomf, quax, etc.<br><br>
   - [Install](#install)
   - [Uploader](#uploader)
   - [Example](#example-usage)
+- [Contributing](#contributing)
 - [Issue](#issue)
 
 # Getting Started
@@ -49,7 +50,8 @@ VideyUploader(media)
 */
 ```
 
+# Contributing
+If you would like to contribute to this package, I would really appreciate it. You can see the [contribution guidelines here](https://github.com/ZanixonGroup/uploader/blob/main/CONTRIBUTING.md) to contribute in the best way possible.
+
 # Issue
 Feel free to open the issue, I hope this documentation can help you maximally and make it easier for you to use this package.
-
-*~ Regards ZTRdiamond ~*
