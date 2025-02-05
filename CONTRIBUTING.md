@@ -8,7 +8,11 @@ Well-written code can simplify the maintenance process or a change in the future
 Semantic commit is very important for managing and checking changes to every code that is pushed into the repository, use semantic commit for your contribution to make it easier to manage further in the future. semantic commit has several of the most common types, namely: feat, add, fix, chore, docs, modified, and others.
 
 I hope, you understand how to use this semantic commit
+<<<<<<< HEAD
 ```txt
+=======
+``txt
+>>>>>>> a50ca5d (docs: add contributing guidelines)
 Type<Scope>: message
 ```
 
@@ -29,4 +33,8 @@ Example of using semantic commit with scope:
 - `fix(cdn): pomf api update`
 - `modified(util/helper): typo at line 12`
 
+<<<<<<< HEAD
 By following the semantic commit standard, any changes made can be easily understood by all project contributors and help in tracking the history of changes to the repository.
+=======
+By following the semantic commit standard, any changes made can be easily understood by all project contributors and help in tracking the history of changes to the repository.
+>>>>>>> a50ca5d (docs: add contributing guidelines)
