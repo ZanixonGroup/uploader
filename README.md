@@ -31,6 +31,7 @@ This library has several file hostings:
 - RyzenUploader - Image, Video, Audio
 - FastUrlUploader - Any
 - ShojibUploader - Image
+- ErhaImgUploader - Image
 
 ### Example Usage
 How to usage this simple library
