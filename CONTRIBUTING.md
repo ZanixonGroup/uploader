@@ -9,10 +9,14 @@ Semantic commit is very important for managing and checking changes to every cod
 
 I hope, you understand how to use this semantic commit
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```txt
 =======
 ``txt
 >>>>>>> a50ca5d (docs: add contributing guidelines)
+=======
+```txt
+>>>>>>> 3d4a8f6 (docs: fix typo)
 Type<Scope>: message
 ```
 
