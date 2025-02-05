@@ -2,7 +2,7 @@ import axios from "axios";
 import FormData from "form-data";
 import { FileSize, MimeType } from "./../utils/helper.js";
 
-export async function ErhaImgUploader(buffer) {
+export async function ErhabotUploader(buffer) {
   if(!Buffer.isBuffer(buffer)) throw Error('Invalid buffer input!');
   if((await FileSize(buffer)) >= 5242880) throw Error('The maximum upload size for images is 5 MB!');
   
