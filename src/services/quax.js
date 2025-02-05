@@ -15,7 +15,7 @@ export async function QuaxUploader(buffer) {
   const raw = await axios.post("https://qu.ax/upload.php", form, {
     headers: {
       ...form.getHeaders(),
-      'origin': 'https://pomf.lain.la',
+      'origin': 'https://qu.ax',
       'user-agent': 'Postify/1.0.0'
     }
   });
