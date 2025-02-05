@@ -8,7 +8,7 @@ Well-written code can simplify the maintenance process or a change in the future
 Semantic commit is very important for managing and checking changes to every code that is pushed into the repository, use semantic commit for your contribution to make it easier to manage further in the future. semantic commit has several of the most common types, namely: feat, add, fix, chore, docs, modified, and others.
 
 I hope, you understand how to use this semantic commit
-``txt
+```txt
 Type<Scope>: message
 ```
 

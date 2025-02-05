@@ -1,5 +1,5 @@
 # Uploader
-A simple multi file hosting uploader like pomf, quax, etc.<br><br>
+A simple multi file hosting uploader for pomf, quax, etc.<br><br>
 <br><br>
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/zanixongroup/uploader?logo=github&cacheSeconds=12000&style=for-the-badge) ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/zanixongroup/uploader?style=for-the-badge) ![GitHub repo size](https://img.shields.io/github/repo-size/zanixongroup/uploader?logo=github&style=for-the-badge&link=https%3A%2F%2Fgithub.com%2Fzanixongroup%2Fuploader) ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/zanixongroup/uploader/main?style=for-the-badge&logo=github)
 
@@ -32,7 +32,7 @@ This library has several file hostings:
 - RyzenUploader - Image, Video, Audio
 - FastUrlUploader - Any
 - ShojibUploader - Image
-- ErhaImgUploader - Image
+- ErhabotUploader - Image
 
 ### Example Usage
 How to usage this simple library
