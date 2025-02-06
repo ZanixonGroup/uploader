@@ -26,15 +26,6 @@ npm i @zanixongroup/uploader
 
 ### Uploader
 This library has several file hostings:
-- PomfUploader - Image, Video, Audio, etc
-- QuaxUploader - Image, Video, Audio
-- VideyUploader - Video
-- RyzenUploader - Image, Video, Audio
-- FastUrlUploader - Any
-- ShojibUploader - Image
-- ErhabotUploader - Image
-- TmpRhbotUploader - Image, Video, Audio
-=======
 - PomfUploader - Image, Video, Audio, etc (Exp: never)
 - QuaxUploader - Image, Video, Audio (Exp: never)
 - VideyUploader - Video (Exp: never)
