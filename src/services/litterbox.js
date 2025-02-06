@@ -1,10 +1,10 @@
 import axios from "axios";
 import FormData from "form-data";
-import { FileSize, MimeType } from "./../utils/helper.js";
+import { FileSize, MaxFileSize, MimeType } from "./../utils/helper.js";
 
 export async function LitterBoxUploader(buffer, expiredTime = "1h") {
   if(!Buffer.isBuffer(buffer)) throw Error('Invalid buffer input!');
-  if((await FileSize(buffer)) >= 1024576000) throw Error('Max size upload for LitterBoxCDN is only 1GiB!');
+  if((await FileSize(buffer)) >= MaxFileSize(1000)) throw Error('Max size upload for LitterBoxCDN is only 1GiB!');
   
   const mime = await MimeType(buffer);
   const form = new FormData();
