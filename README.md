@@ -1,6 +1,11 @@
 # Uploader
+<<<<<<< HEAD
 A simple multi file hosting uploader for pomf, quax, etc.
 <br><br>
+=======
+A simple multi file hosting uploader for pomf, quax, etc.<br><br>
+<br>
+>>>>>>> 79347be (docs: add catbox)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/zanixongroup/uploader?logo=github&cacheSeconds=12000&style=for-the-badge) ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/zanixongroup/uploader?style=for-the-badge) ![GitHub repo size](https://img.shields.io/github/repo-size/zanixongroup/uploader?logo=github&style=for-the-badge&link=https%3A%2F%2Fgithub.com%2Fzanixongroup%2Fuploader) ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/zanixongroup/uploader/main?style=for-the-badge&logo=github)
 
 # Features
@@ -47,7 +52,11 @@ This library has several file hostings:
 - ShojibUploader - Image (Exp: ??)
 - ErhabotUploader - Image (Exp: ??)
 - LitterBoxUploader - Any (Exp: 1h, 12h, 24h, 72h)
+<<<<<<< HEAD
 >>>>>>> 703a0f9 (docs: added expiry information)
+=======
+- CatBoxUploader - Any (Exp: never)
+>>>>>>> 79347be (docs: add catbox)
 
 ### Example Usage
 How to usage this simple library
