@@ -29,7 +29,7 @@ This library has several file hostings:
 - PomfUploader - Image, Video, Audio, etc (Exp: never)
 - QuaxUploader - Image, Video, Audio (Exp: never)
 - VideyUploader - Video (Exp: never)
-- RyzenUploader - Image, Video, Audio (Exp: )
+- RyzenUploader - Image, Video, Audio (Exp: 24h)
 - FastUrlUploader - Any (Exp: never)
 - ShojibUploader - Image (Exp: ??)
 - ErhabotUploader - Image (Exp: ??)
