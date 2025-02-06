@@ -26,7 +26,6 @@ npm i @zanixongroup/uploader
 
 ### Uploader
 This library has several file hostings:
-<<<<<<< HEAD
 - PomfUploader - Image, Video, Audio, etc
 - QuaxUploader - Image, Video, Audio
 - VideyUploader - Video
@@ -34,6 +33,7 @@ This library has several file hostings:
 - FastUrlUploader - Any
 - ShojibUploader - Image
 - ErhabotUploader - Image
+- TmpRhbotUploader - Image, Video, Audio
 =======
 - PomfUploader - Image, Video, Audio, etc (Exp: never)
 - QuaxUploader - Image, Video, Audio (Exp: never)
@@ -44,7 +44,7 @@ This library has several file hostings:
 - ErhabotUploader - Image (Exp: never)
 - LitterBoxUploader - Any (Exp: 1h, 12h, 24h, 72h)
 - CatBoxUploader - Any (Exp: never)
->>>>>>> c315e7c0c5285e8139c65afb87c8a562992a1c6a
+- TmpRhbotUploader - Image, Video, Audio (Exp: 24h)
 
 ### Example Usage
 How to usage this simple library

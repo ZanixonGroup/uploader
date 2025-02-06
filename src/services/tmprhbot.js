@@ -2,19 +2,17 @@ import axios from "axios";
 import FormData from "form-data";
 import { FileSize, MaxFileSize, MimeType } from "./../utils/helper.js";
 
-export async function ErhabotUploader(buffer) {
+export async function TmpRhbotUploader(buffer) {
   if(!Buffer.isBuffer(buffer)) throw Error('Invalid buffer input!');
-  if((await FileSize(buffer)) >= MaxFileSize(5)) throw Error('The maximum upload size for images is 5 MB!');
+  if((await FileSize(buffer)) >= MaxFileSize(100)) throw Error('Max size upload for TmpRhbot is only 100MB!');
   
   const mime = await MimeType(buffer);
-  if(!["jpg","jpeg","png"].includes(mime.ext)) throw Error('Only support image!')
-  
   const form = new FormData();
-  form.append("file", Buffer.from(buffer), {
+  form.append("someFiles", Buffer.from(buffer), {
     filename: "zxn-" + Date.now() + "." + mime.ext,
     contentType: mime.mime
   });
-  const raw = await axios.post("https://cdn.erhabot.com/upload", form, {
+  const raw = await axios.post("https://tmp.erhabot.xyz/api/upload", form, {
     headers: {
       ...form.getHeaders()
     }
