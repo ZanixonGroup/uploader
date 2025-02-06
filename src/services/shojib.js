@@ -1,10 +1,10 @@
 import axios from "axios";
 import FormData from "form-data";
-import { FileSize, MimeType } from "./../utils/helper.js";
+import { FileSize, MaxFileSize, MimeType } from "./../utils/helper.js";
 
 export async function ShojibUploader(buffer) {
   if(!Buffer.isBuffer(buffer)) throw Error('Invalid buffer input!');
-  if((await FileSize(buffer)) >= 104857600) throw Error('Max size upload for ShojibCDN is only 100MB!');
+  if((await FileSize(buffer)) >= MaxFileSize(100)) throw Error('Max size upload for ShojibCDN is only 100MB!');
   
   const mime = await MimeType(buffer);
   const form = new FormData();
