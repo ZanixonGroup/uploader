@@ -1,6 +1,6 @@
 import axios from "axios";
 import FormData from "form-data";
-import { FileSize, MaxFileSize MimeType } from "./../utils/helper.js";
+import { FileSize, MaxFileSize, MimeType } from "./../utils/helper.js";
 
 export async function VideyUploader(buffer) {
   if(!Buffer.isBuffer(buffer)) throw Error('Invalid buffer input!');

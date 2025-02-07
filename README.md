@@ -35,6 +35,7 @@ This library has several file hostings:
 - ErhabotUploader - Image (Exp: never)
 - LitterBoxUploader - Any (Exp: 1h, 12h, 24h, 72h)
 - CatBoxUploader - Any (Exp: never)
+- TmpRhbotUploader - Image, Video, Audio (Exp: 24h)
 
 ### Example Usage
 How to usage this simple library
