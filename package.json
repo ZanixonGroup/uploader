@@ -1,0 +1,51 @@
+{
+  "name": "@zanixongroup/uploader",
+  "version": "1.11.6",
+  "description": "A simple any file hosting uploader for node.js",
+  "repository": "zanixongroup/uploader",
+  "main": "./dist/index.cjs",
+  "type": "module",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
+  },
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.13"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "tsx test/test.ts",
+    "build": "scripts/build.js",
+    "type-check": "tsc --skipLibCheck --noEmit"
+  },
+  "keywords": [
+    "uploader",
+    "file-upload",
+    "file-hosting",
+    "file",
+    "cloud",
+    "cloud-file"
+  ],
+  "author": "ZTRdiamond",
+  "bugs": {
+    "url": "https://github.com/ZanixonGroup/uploader/issues"
+  },
+  "homepage": "https://github.com/ZanixonGroup/uploader#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "file-type": "^19.0.0",
+    "form-data": "^4.0.0",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.5",
+    "typescript": "4.6.3"
+  }
+}
