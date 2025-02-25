@@ -1,5 +1,6 @@
-export declare function RyzenUploader(buffer: Uint8Array): Promise<string>;
-ze, MaxFileSize, MimeType } from "./../utils/helper.js";
+import axios from "axios";
+import FormData from "form-data";
+import { FileSize, MaxFileSize, MimeType } from "./../utils/helper.js";
 export async function RyzenUploader(buffer) {
     if (!Buffer.isBuffer(buffer))
         throw new Error("Invalid buffer input!");
@@ -20,12 +21,3 @@ export async function RyzenUploader(buffer) {
         throw new Error("Failed upload, no response from server!");
     return raw?.data?.url;
 }
- headers: { ...form.getHeaders() }
-    });
-    if (!raw.data?.url)
-        throw new Error("Failed upload, no response from server!");
-    return raw?.data?.url;
-}
-exports.RyzenUploader = RyzenUploader;
-module.exports = exports.default;
-module.exports.default = exports.default;
