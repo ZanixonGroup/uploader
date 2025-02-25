@@ -3,7 +3,7 @@
   "version": "1.11.6",
   "description": "A simple any file hosting uploader for node.js",
   "repository": "zanixongroup/uploader",
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.js",
   "type": "module",
   "exports": {
     "types": "./dist/index.d.ts",
