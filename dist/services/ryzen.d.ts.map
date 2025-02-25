@@ -1,0 +1,2 @@
+{"version":3,"file":"ryzen.d.ts","sourceRoot":"","sources":["../../src/services/ryzen.ts"],"names":[],"mappings":"AAIA,wBAAsB,aAAa,CAAC,MAAM,EAAE,UAAU,GAAG,OAAO,CAAC,MAAM,CAAC,CAkBvE"}module.exports = exports.default;
+module.exports.default = exports.default;
