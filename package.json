@@ -1,29 +1,22 @@
 {
+  "type": "commonjs",
   "name": "@zanixongroup/uploader",
-  "version": "1.11.6",
+  "version": "1.11.14-ts",
   "description": "A simple any file hosting uploader for node.js",
-  "repository": "zanixongroup/uploader",
-  "main": "./dist/index.js",
-  "type": "module",
-  "exports": {
-    "types": "./dist/index.d.ts",
-    "import": "./dist/index.js",
-    "require": "./dist/index.cjs"
-  },
-  "module": "./dist/index.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "sideEffects": false,
-  "license": "MIT",
-  "engines": {
-    "node": ">=12.13"
+  "exports": {
+    "default": "./dist/index.cjs",
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs"
   },
-  "files": [
-    "dist"
-  ],
   "scripts": {
-    "test": "tsx test/test.ts",
-    "build": "scripts/build.js",
-    "type-check": "tsc --skipLibCheck --noEmit"
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZanixonGroup/uploader.git"
   },
   "keywords": [
     "uploader",
@@ -34,6 +27,7 @@
     "cloud-file"
   ],
   "author": "ZTRdiamond",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ZanixonGroup/uploader/issues"
   },
@@ -45,7 +39,8 @@
     "util": "^0.12.5"
   },
   "devDependencies": {
-    "@types/node": "22.13.5",
-    "typescript": "4.6.3"
+    "@types/node": "22.13.8",
+    "tsup": "8.4.0",
+    "typescript": "5.8.2"
   }
 }

@@ -1,7 +1,5 @@
-# src
-src/
-test/
-scripts/
+# build
+/dist
 
 # dependencies
 node_modules/
