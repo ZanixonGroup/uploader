@@ -1,7 +1,7 @@
 {
   "type": "commonjs",
   "name": "@zanixongroup/uploader",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A simple any file hosting uploader for node.js",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
