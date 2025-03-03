@@ -1,6 +1,6 @@
 # source
-/src
-/test
+src/
+test/
 
 tsconfig.json
 tsup.config.ts

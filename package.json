@@ -1,15 +1,15 @@
 {
   "type": "commonjs",
   "name": "@zanixongroup/uploader",
-  "version": "1.11.14-ts",
+  "version": "2.0.0",
   "description": "A simple any file hosting uploader for node.js",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
-    "default": "./dist/index.cjs",
     "require": "./dist/index.cjs",
-    "import": "./dist/index.mjs"
+    "import": "./dist/index.mjs",
+    "default": "./dist/index.cjs"
   },
   "scripts": {
     "build": "tsup"
