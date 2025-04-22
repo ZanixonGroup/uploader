@@ -38,6 +38,7 @@ This library has several file hostings:
 - TmpErhabot - Image, Video, Audio (Exp: 24h)
 - Uguu - Any (Exp: 3h)
 - IDNet - Image, Video, Document (Exp: never)
+- Cloudku - Any (Exp: ??)
 
 ### Example Usage
 How to usage this simple library
@@ -46,16 +47,16 @@ How to usage this simple library
 import Upload from "@zanixongroup/uploader";
 */
 
-import { Videy } from "@zanixongroup/uploader";
+import { FastUrl } from "@zanixongroup/uploader";
 
 const media = //buffer
-Videy(media)
+FastUrl(media)
   .then(console.log)
   .catch(console.log)
 
 /**
   Result:
-    https://cdn.videy.co/NyBFfECf1.mp4
+    https://fastrestapis.fasturl.cloud/file/v2/ZVNM9W2.jpg
 */
 ```
 
