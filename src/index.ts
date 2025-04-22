@@ -10,6 +10,7 @@ export * from "./services/tmperhabot";
 export * from "./services/uguu";
 export * from "./services/videy";
 export * from "./services/idnet";
+export * from "./services/cloudku";
 
 import * as Catbox from "./services/catbox";
 import * as Erhabot from "./services/erhabot";
@@ -23,6 +24,7 @@ import * as TmpErhabot from "./services/tmperhabot";
 import * as Uguu from "./services/uguu";
 import * as Videy from "./services/videy";
 import * as IDNet from "./services/idnet";
+import * as Cloudku from "./services/cloudku";
 
 export default {
   Catbox,
@@ -36,5 +38,6 @@ export default {
   TmpErhabot,
   Uguu,
   Videy,
-  IDNet
+  IDNet,
+  Cloudku
 };
