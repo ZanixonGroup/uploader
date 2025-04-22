@@ -9,6 +9,7 @@ export * from "./services/shojib";
 export * from "./services/tmperhabot";
 export * from "./services/uguu";
 export * from "./services/videy";
+export * from "./services/idnet";
 
 import * as Catbox from "./services/catbox";
 import * as Erhabot from "./services/erhabot";
@@ -21,6 +22,7 @@ import * as Shojib from "./services/shojib";
 import * as TmpErhabot from "./services/tmperhabot";
 import * as Uguu from "./services/uguu";
 import * as Videy from "./services/videy";
+import * as IDNet from "./services/idnet";
 
 export default {
   Catbox,
@@ -33,5 +35,6 @@ export default {
   Shojib,
   TmpErhabot,
   Uguu,
-  Videy
+  Videy,
+  IDNet
 };

@@ -37,6 +37,7 @@ This library has several file hostings:
 - Catbox - Any (Exp: never)
 - TmpErhabot - Image, Video, Audio (Exp: 24h)
 - Uguu - Any (Exp: 3h)
+- IDNet - Image, Video, Document (Exp: never)
 
 ### Example Usage
 How to usage this simple library
