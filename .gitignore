@@ -1,5 +1,6 @@
 # build
 dist
+*.js
 
 # dependencies
 node_modules
