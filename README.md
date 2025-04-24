@@ -38,7 +38,8 @@ This library has several file hostings:
 - TmpErhabot - Image, Video, Audio (Exp: 24h)
 - Uguu - Any (Exp: 3h)
 - IDNet - Image, Video, Document (Exp: never)
-- Cloudku - Any (Exp: ??)
+- Cloudku - Any (Exp: never)
+- Nyxs - Any (Exp: 1h)
 
 ### Example Usage
 How to usage this simple library

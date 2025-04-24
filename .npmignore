@@ -2,5 +2,9 @@
 src
 test
 
+# build
 tsconfig.json
 tsup.config.ts
+
+# tmp
+malas_ngoding.jpg
