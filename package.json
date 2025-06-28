@@ -1,7 +1,7 @@
 {
   "type": "commonjs",
   "name": "@zanixongroup/uploader",
-  "version": "2.0.7",
+  "version": "2.0.6",
   "description": "A simple any file hosting uploader for node.js",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -13,6 +13,7 @@
   },
   "scripts": {
     "test": "tsx ./test/test.ts",
+    "clean": "rm -rf dist && echo '\n\nDist directory has been cleaned.\n\n'",
     "build": "tsup"
   },
   "repository": {

@@ -2,7 +2,7 @@ import axios from "axios";
 import FormData from "form-data";
 import { FileSize, MaxFileSize, MimeType } from "./../utils/helper";
 
-export async function Ryzen(data: Uint8Array) {
+export async function Ryzumi(data: Uint8Array) {
   if(!Buffer.isBuffer(data)) throw new Error("Invalid buffer input!");
   if(FileSize(data) >= MaxFileSize(100)) throw new Error("Max file upload for catbox is only 100MB!");
   
@@ -12,7 +12,7 @@ export async function Ryzen(data: Uint8Array) {
     filename: mime ? "zxn-" + Date.now() + "." + mime?.ext : "",
     contentType: mime?.mime || ""
   });
-  const raw = await axios.post("https://api.ryzendesu.vip/api/uploader/ryzencdn", form, {
+  const raw = await axios.post("https://api.ryzumi.vip/api/uploader/ryzencdn", form, {
     headers: {
       ...form.getHeaders()
     }
@@ -21,4 +21,4 @@ export async function Ryzen(data: Uint8Array) {
   return raw?.data?.url || null;
 }
 
-export default Ryzen;
+export default Ryzumi;
