@@ -29,7 +29,7 @@ This library has several file hostings:
 - Pomf - Image, Video, Audio, etc (Exp: never)
 - Quax - Image, Video, Audio (Exp: never)
 - Videy - Video (Exp: never)
-- Ryzen - Image, Video, Audio (Exp: 24h)
+- Ryzumi - Image, Video, Audio (Exp: 24h)
 - FastUrl - Any (Exp: never)
 - Shojib - Image (Exp: ??)
 - Erhabot - Image (Exp: never)
