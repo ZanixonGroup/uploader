@@ -11,7 +11,7 @@ export async function FastUrl(data: Uint8Array) {
     filename: mime ? "zxn-" + Date.now() + "." + mime?.ext : "",
     contentType: mime?.mime || ""
   });
-  const raw = await axios.post("https://fastrestapis.fasturl.cloud/downup/uploader-v2", form, {
+  const raw = await axios.post("https://api.fasturl.link/downup/uploader-v2", form, {
     headers: {
       ...form.getHeaders()
     }
