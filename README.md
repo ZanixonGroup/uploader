@@ -35,7 +35,6 @@ This library has several file hostings:
 - Litterbox - Any (Exp: 1h, 12h, 24h, 72h)
 - Catbox - Any (Exp: never)
 - Uguu - Any (Exp: 3h)
-- IDNet - Image, Video, Document (Exp: never)
 - Cloudku - Any (Exp: never)
 
 ### Example Usage

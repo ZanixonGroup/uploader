@@ -7,7 +7,6 @@ export * from "./services/ryzumi";
 export * from "./services/shojib";
 export * from "./services/uguu";
 export * from "./services/videy";
-export * from "./services/idnet";
 export * from "./services/cloudku";
 
 import * as Catbox from "./services/catbox";
@@ -19,7 +18,6 @@ import * as Ryzumi from "./services/ryzumi";
 import * as Shojib from "./services/shojib";
 import * as Uguu from "./services/uguu";
 import * as Videy from "./services/videy";
-import * as IDNet from "./services/idnet";
 import * as Cloudku from "./services/cloudku";
 
 export default {
@@ -32,6 +30,5 @@ export default {
   Shojib,
   Uguu,
   Videy,
-  IDNet,
   Cloudku,
 };
