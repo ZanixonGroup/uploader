@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 import { dirname } from "desm";
-import Unit from "./../src/services/fasturl.ts";
+import Unit from "./../src/services/erhabot.ts";
 
 const __dirname = dirname(import.meta.url);
 
