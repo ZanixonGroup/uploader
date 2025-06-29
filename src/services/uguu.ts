@@ -19,7 +19,7 @@ export async function Uguu(data: Uint8Array) {
       'user-agent': 'UguuUploader/1.0.0'
     }
   });
-  return raw?.data || null;
+  return raw?.data.files[0].url || null;
 }
 
 export default Uguu;
