@@ -12,10 +12,10 @@ export async function Cloudku(data: Uint8Array) {
     filename: mime ? "zxn-" + Date.now() + "." + mime?.ext : "",
     contentType: mime?.mime || ""
   });
-  const raw = await axios.post("https://cloudkuimages.guru/upload.php", form, {
+  const raw = await axios.post("https://cloudkuimages.com/upload.php", form, {
     headers: {
       ...form.getHeaders(),
-      'origin': 'https://cloudkuimages.guru',
+      'origin': 'https://cloudkuimages.com',
       'user-agent': 'Postify/1.0.0'
     }
   });
