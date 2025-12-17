@@ -30,7 +30,6 @@ This library has several file hostings:
 - Quax - Image, Video, Audio (Exp: never)
 - Videy - Video (Exp: never)
 - Ryzumi - Image, Video, Audio (Exp: 24h)
-- FastUrl - Any (Exp: never)
 - Litterbox - Any (Exp: 1h, 12h, 24h, 72h)
 - Catbox - Any (Exp: never)
 - Uguu - Any (Exp: 3h)
