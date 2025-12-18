@@ -27,5 +27,5 @@ export default {
   Ryzumi,
   Uguu,
   Videy,
-  Cloudku,
+  Cloudku
 };

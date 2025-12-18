@@ -20,7 +20,7 @@ export async function Cloudku(data: Uint8Array) {
     }
   });
 
-  return raw?.data?.result?.url || null;
+  return raw?.data?.data?.url || null;
 }
 
 export default Cloudku;
