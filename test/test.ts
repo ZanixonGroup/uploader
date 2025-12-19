@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 import { dirname } from "desm";
-import Unit from "./../src/services/cloudku.ts";
+import Unit from "./../src/services/picsur.ts";
 
 const __dirname = dirname(import.meta.url);
 
